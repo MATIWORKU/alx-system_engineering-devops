@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -mindepth l | wc -l
+echo $PATH | tr -s ':' '\n' | wc -l
